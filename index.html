@@ -9,7 +9,8 @@
 </head>
 <body>
   <div class="container">
-    <nav class="nav flex">
+
+    <nav class="nav">
       <div class="nav-left">
         <a href="#">Google 정보</a>
         <a href="#">속성</a>
@@ -17,7 +18,7 @@
       <div class="nav-right">
         <a href="#">Gmail</a>
         <a href="#">이미지</a>
-        <div class="icon-box">
+        <div class="nav-icon-box">
           <a href="#" class="icon-dots">
             <span class="material-symbols-outlined dots">apps</span>
           </a>
@@ -28,9 +29,11 @@
     <main>
       <div class="main-box">
         <img src="./img/google-logo.png">
-        <span class="material-symbols-outlined">search</span>
-        <input type="text" placeholder="search"">
-        <span class="material-symbols-outlined">mic</span>
+        <div class="main-icon-box">
+          <span class="material-symbols-outlined">search</span>
+          <input type="text" placeholder="search">
+          <span class="material-symbols-outlined">mic</span>
+        </div>
         <div class="btn-box">
           <button type="button">Google 검색</button>
           <button type="button">I'm Feeling Lucky</button>
@@ -39,6 +42,9 @@
     </main>
 
     <footer class="footer flex">
+      <div class="country">
+        대한민국
+      </div>
       <div class="footer-left">
         <a href="#">광고</a>
         <a href="#">비즈니스</a>
